@@ -1,0 +1,4 @@
+interface:
+  display_name: "Persian Scientific Writing"
+  short_description: "Write polished Persian academic documents"
+  default_prompt: "Use $persian-scientific-writing to draft a rigorous Persian thesis section, paper, or proposal."
