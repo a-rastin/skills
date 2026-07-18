@@ -33,7 +33,6 @@ Use it when the deliverable is in Persian, or when English academic material mus
 - **Present-study voice** — `ما` for the authors' own supplied work and interpretation; third person for prior work
 - **Strict Persian surface form** — Persian equivalents instead of floating English words, punctuation-safe prose, and no harakat
 - **Translation as adaptation** — Rebuilds propositions in Persian while preserving stance, hedging, units, and citations
-- **Integrity guardrails** — Placeholders such as `[منبع لازم]` and `[آمار تأیید شود]` when evidence is missing
 - **Revision passes** — Substance → structure → language → mechanics → final audit
 - **Venue-aware defaults** — Institutional templates and journal guides override skill defaults when supplied
 
