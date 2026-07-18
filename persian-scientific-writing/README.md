@@ -1,6 +1,6 @@
 # Persian Scientific Writing
 
-**Agent skill for rigorous academic Persian (فارسی آکادمیک)**
+**Agent skill for rigorous academic Persian**
 
 Write, rewrite, translate, structure, and edit scholarly Persian for theses, dissertations, journal and conference papers, research proposals, literature reviews, abstracts, and related academic sections — with discipline-appropriate terminology, orthography, and scholarly integrity.
 
