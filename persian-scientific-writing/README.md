@@ -14,8 +14,10 @@ Academic Persian is not casual Persian with harder words, and it is not English 
 | --- | --- |
 | **Meaning over calque** | Idiomatic Persian structure instead of mirrored English syntax |
 | **Scholarly integrity** | No invented sources, stats, methods, or findings |
+| **Source audit** | Candidate claims and citation decisions mined from supplied files before prose |
+| **Authorial originality** | Present-study voice and expert interpretation grounded only in supplied evidence |
 | **Document craft** | Thesis, paper, proposal, and review structures that stay aligned |
-| **Orthography** | Consistent `ی/ک`, نیم‌فاصله, punctuation, numerals, and RTL/LTR handling |
+| **Orthography** | No English prose, ASCII round parentheses or comma, or Arabic diacritics outside narrow protected cases |
 | **Submission polish** | Multi-pass revision plus a final quality-control checklist |
 
 Use it when the deliverable is in Persian, or when English academic material must become natural Persian academic prose. Do **not** use it for casual Persian or non-academic translation.
@@ -27,6 +29,9 @@ Use it when the deliverable is in Persian, or when English academic material mus
 - **Task routing** — Loads only the reference material needed for structure, style, or final QC
 - **Brief first** — Clarifies document type, discipline, purpose, length, and citation style before drafting
 - **Claim–evidence–reasoning** — Paragraphs with a clear function, attributed evidence, and explicit interpretation
+- **Full source mining** — Six-field candidate audits and a visible citation plan for attached files and labeled source blocks
+- **Present-study voice** — `ما` for the authors' own supplied work and interpretation; third person for prior work
+- **Strict Persian surface form** — Persian equivalents instead of floating English words, punctuation-safe prose, and no harakat
 - **Translation as adaptation** — Rebuilds propositions in Persian while preserving stance, hedging, units, and citations
 - **Integrity guardrails** — Placeholders such as `[منبع لازم]` and `[آمار تأیید شود]` when evidence is missing
 - **Revision passes** — Substance → structure → language → mechanics → final audit
@@ -40,9 +45,10 @@ Use it when the deliverable is in Persian, or when English academic material mus
 persian-scientific-writing/
 ├── SKILL.md                          # Entrypoint: routing, integrity, workflow, delivery
 ├── agents/
-│   └── openai.yaml                   # Codex / OpenAI agent display metadata
+│   └── openai.yml                    # Codex / OpenAI agent display metadata
 ├── references/
 │   ├── document-structures.md        # Thesis, paper, proposal, literature-review outlines
+│   ├── originality-and-citations.md  # Source audit, authorial voice, English/diacritic constraints
 │   ├── persian-style.md              # Register, orthography, RTL, terminology, citations
 │   └── quality-control.md            # Submission-ready checklist
 └── README.md
@@ -52,9 +58,10 @@ persian-scientific-writing/
 | --- | --- |
 | [`SKILL.md`](SKILL.md) | Agent instructions: when to load, how to brief, draft, revise, and deliver |
 | [`references/document-structures.md`](references/document-structures.md) | Default section maps and problem→method→result alignment audit |
+| [`references/originality-and-citations.md`](references/originality-and-citations.md) | Six-step source mining, citation choice, authorial voice, and language-constraint workflow |
 | [`references/persian-style.md`](references/persian-style.md) | Formal Persian register, نیم‌فاصله, punctuation, numerals, terminology |
 | [`references/quality-control.md`](references/quality-control.md) | Evidence, argument, language, citation, and handoff checks |
-| [`agents/openai.yaml`](agents/openai.yaml) | UI name, short description, and default prompt for compatible agents |
+| [`agents/openai.yml`](agents/openai.yml) | UI name, short description, and default prompt for compatible agents |
 
 ---
 
@@ -141,12 +148,12 @@ Suggest structural fixes without inventing new evidence or results.
 ```text
 1. Select task        → structure / style / QC references
 2. Establish brief    → type, audience, purpose, constraints
-3. Protect integrity  → no fabricated evidence
-4. Outline            → claim–evidence–reasoning per section
-5. Write Persian      → idiomatic, consistent terminology
-6. Translate/adapt    → meaning first, then surface form
-7. Revise in passes   → substance → structure → language → mechanics
-8. Deliver            → clean Persian prose + optional editorial notes
+3. Mine sources       → six-field candidate audit from supplied context
+4. Decide citations   → select support and assign exact citation spots
+5. Protect integrity  → no fabricated evidence
+6. Outline and write  → present-study voice + claim–evidence–reasoning
+7. Verify constraints → no floating English, forbidden ASCII, or harakat
+8. Revise and deliver → clean Persian prose + optional editorial notes
 ```
 
 ---
@@ -183,7 +190,9 @@ All outlines are **defaults**. University templates, journal author guidelines, 
 - Contemporary **formal** Persian — precise, readable, not ornate or bureaucratic  
 - **نیم‌فاصله** in compounds and affixes (`می‌شود`, `داده‌ها`, `روش‌های`)  
 - Persian punctuation in Persian prose: `،` `؛` `؟` and guillemets `«…»`  
-- First mention pattern: `برابر فارسی (English term; ABBR)` when useful  
+- No ordinary English words inside Persian sentences; narrow carve-outs protect exact nomenclature and technical literals  
+- No authored ASCII `(`, `,`, or `)`, and no Arabic harakat outside explicitly tagged Arabic quotations  
+- First mention for an untranslatable term: `برابر فارسی «English term؛ ABBR»`; subsequent mentions use Persian only  
 - Careful **RTL/LTR** handling for citations, years, equations, and Latin terms  
 - Hedging calibrated to evidence: e.g. `نشان می‌دهد`, `می‌تواند`, `احتمالاً`
 
