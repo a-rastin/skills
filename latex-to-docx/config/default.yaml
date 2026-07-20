@@ -1,0 +1,18 @@
+strict: true
+main_language: fa-IR
+latin_language: en-US
+persian_font: Noto Naskh Arabic
+latin_font: Liberation Serif
+mono_font: DejaVu Sans Mono
+preserve_digits: true
+normalize_unicode: NFC
+reference_doc: null
+csl: null
+bibliography: []
+render_dpi: 160
+figure_dpi: 300
+prefer_svg: true
+target_application: word-2019+
+compile_baseline: true
+latex_engine: auto
+keep_workdir: false
