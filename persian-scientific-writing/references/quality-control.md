@@ -15,6 +15,7 @@ Apply the relevant checks before returning submission-ready Persian academic tex
 
 - The document answers the stated question and follows the required template.
 - Each paragraph has one main function and connects logically to its neighbors.
+- No standalone conclusion, closing summary, or formulaic wrap-up has been added unless the user requested it or the target document structure, template, or rhetorical purpose genuinely requires it.
 - The research gap is synthesized from evidence rather than merely asserted.
 - Objectives, questions, methods, results, and conclusions align.
 - The discussion interprets findings instead of repeating results.
