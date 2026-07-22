@@ -6,7 +6,7 @@ Choose the structure required by the target institution or venue. These outlines
 
 ### 1. Governing structure
 
-A TUMS thesis or dissertation should be organized in the official institutional sequence, with a clear logical thread from the research problem to the objectives, methodology, findings, discussion, and conclusion. The literature review must synthesize evidence and establish the study gap rather than present disconnected summaries of individual sources.
+A thesis or dissertation should be organized in the official institutional sequence, with a clear logical thread from the research problem to the objectives, methodology, findings, discussion, and conclusion. The literature review must synthesize evidence and establish the study gap rather than present disconnected summaries of individual sources.
 
 ### 2. Required order of thesis components
 
