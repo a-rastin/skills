@@ -32,7 +32,16 @@ In these cases, mine silently when citation choices still matter, or skip mining
 
 After the candidate audit, show a separate Persian citation plan. Mark each selected candidate, the exact claim or paragraph it will support, and whether it is primary support, supplementary support, or an alternative. Reject weak candidates explicitly when that prevents overclaiming. Then write the prose. Do not cite every mined source merely because it is available.
 
-Preserve the boundary between prior work and the present study. Describe cited external authors in third person. Reserve `ما` for the present study's own supplied contribution and synthesis. A safe pattern is: `رفیعی و همکاران نشان دادند که ...؛ ما با گسترش آزمون به نمونه‌ای بزرگ‌تر دریافتیم که ...` Only write the second clause when the supplied study material establishes it.
+Apply these citation-distribution limits throughout the complete document:
+
+  - Maximum repetition of one reference: Cite each unique reference no more than three times in the entire document. Count every separate citation location, whether the reference appears alone or inside a grouped citation. Before finalizing, audit citation frequency by citation key or other unique reference identifier. When a reference would otherwise appear a fourth time, consolidate nearby supported claims where academically appropriate or use another genuinely suitable source. Never substitute an irrelevant source merely to satisfy this limit.
+Maximum references per argument: Use one or two of the strongest and most directly relevant references for most arguments. Use three to five different references only when the argument genuinely requires broader support, such as demonstrating consensus, representing conflicting findings, or documenting variation across populations or methods. Never cite more than five different references for a single argument, claim, or tightly connected reasoning unit. Avoid citation dumping.
+
+  - Treat an argument as one factual claim, interpretive proposition, or tightly connected reasoning unit that the cited evidence is intended to support. Do not evade the five-reference limit by splitting one argument into artificial sentence fragments, and do not merge unrelated claims merely to reduce citation counts.
+
+  - Before drafting and again before final delivery, verify both limits systematically: no unique reference appears at more than three citation locations in the whole document, and no argument is supported by more than five distinct references.
+
+  - Preserve the boundary between prior work and the present study. Describe cited external authors in third person. Reserve ما for the present study's own supplied contribution and synthesis. A safe pattern is: رفیعی و همکاران نشان دادند که ...؛ ما با گسترش آزمون به نمونه‌ای بزرگ‌تر دریافتیم که ... Only write the second clause when the supplied study material establishes it.
 
 ## 4. Write as the author of the present study
 
