@@ -48,6 +48,7 @@ Use these defaults unless the user's institution, journal, or house style specif
 - Preserve Latin text only for the protected identifiers, inline code, units, equations, numbers, DOI strings, citation keys, reference entries, and explicitly tagged quotations defined in [originality-and-citations.md](originality-and-citations.md).
 - Define abbreviations once in the main text and again in an abstract if it must stand alone.
 - Maintain a terminology list for long documents and reject silent synonym drift.
+- In Persian scientific prose, avoid 'شانس' unless it is required as an established technical term, such as 'نسبت شانس'. Prefer 'احتمال'، 'محتمل'، 'امکان'، or another context-appropriate equivalent.
 
 ## Citations and quotations
 
