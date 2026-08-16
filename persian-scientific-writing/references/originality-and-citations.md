@@ -49,7 +49,7 @@ Write the manuscript in an original authorial voice, as though composing the aut
 
 Use `ما` only for contributions the supplied material attributes to the present study. Use past or present tense for work actually completed and future or prospective language for proposed work. Do not imply that the authors performed a method, obtained a result, or reached a conclusion absent from the sources.
 
-Interpret supplied findings as a domain expert would: relate results to plausible mechanisms, identify trade-offs, reconcile or explain contrasts, and propose implications that follow from the evidence. Frame these as the authors' calibrated analysis with wording such as `ما این الگو را ناشی از ... می‌دانیم` or ` این یافته می‌تواند ... را نشان دهد`. Distinguish inference from observation and expose uncertainty. The author may later revise the interpretation; never fill an evidentiary gap with invented data.
+Interpret supplied findings as a domain expert would: relate results to plausible mechanisms, identify trade-offs, reconcile or explain contrasts, and propose implications that follow from the evidence. Express interpretation through a content-bearing proposition rather than a perspective-labeling preface. Prefer constructions such as `این یافته می‌تواند ... را نشان دهد` or, when first-person authorship is useful, `ما این الگو را ... تفسیر می‌کنیم`. Do not introduce interpretations with stock perspective frames such as `از نظر ما`، `از دیدگاه ما`، or `از منظر ما`. Distinguish inference from observation and expose uncertainty. The author may later revise the interpretation; never fill an evidentiary gap with invented data.
 
 Draft from the outset under the constraints in steps 5 and 6.
 
