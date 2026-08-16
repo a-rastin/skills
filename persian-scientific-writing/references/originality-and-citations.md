@@ -51,6 +51,8 @@ Use `ما` only for contributions the supplied material attributes to the presen
 
 Interpret supplied findings as a domain expert would: relate results to plausible mechanisms, identify trade-offs, reconcile or explain contrasts, and propose implications that follow from the evidence. Express interpretation through a content-bearing proposition rather than a perspective-labeling preface. Prefer constructions such as `این یافته می‌تواند ... را نشان دهد` or, when first-person authorship is useful, `ما این الگو را ... تفسیر می‌کنیم`. Do not introduce interpretations with stock perspective frames such as `از نظر ما`، `از دیدگاه ما`، or `از منظر ما`. Distinguish inference from observation and expose uncertainty. The author may later revise the interpretation; never fill an evidentiary gap with invented data.
 
+Never turn the user's topic, title, section name, research question, or prompt wording into a viewpoint holder. For example, do not write constructions equivalent to `از دیدگاه [موضوع کاربر] ...` merely to introduce a paragraph. A perspective construction is appropriate only when the perspective itself is substantive content, such as an explicitly discussed theory, framework, author, school of thought, stakeholder group, or disciplinary position.
+
 Draft from the outset under the constraints in steps 5 and 6.
 
 ## 5. Verify that Persian prose contains no English typing or forbidden ASCII punctuation
