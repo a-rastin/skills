@@ -33,6 +33,7 @@ Apply the relevant checks before returning submission-ready Persian academic tex
 - Long sentences, ambiguous pronouns, stacked nouns, and excessive passive constructions have been revised.
 - Technical equivalents and abbreviations are defined and used consistently.
 - Mixed RTL/LTR strings render correctly, especially citations, parentheses, numbers, formulas, and English terms.
+- Paragraph openings are varied according to rhetorical function and are not generated from a repeated stock template.
 
 ## Citations and formatting
 
