@@ -56,6 +56,7 @@ Use bullet points for planning, requirements, or genuinely list-like content. Co
 ## Write idiomatic academic Persian
 
 - Write for meaning, not word-for-word correspondence with English syntax.
+- Do not echo prompt wording as introductory metadiscourse; integrate the subject naturally into the proposition being made.
 - Prefer clear contemporary formal Persian over conversational, ornate, archaic, or excessively nominal prose.
 - Keep sentences manageable; split long chains of subordinate clauses.
 - Make agents, actions, logical relations, and referents explicit when ambiguity is possible.
