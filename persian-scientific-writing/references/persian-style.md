@@ -13,6 +13,15 @@ Use these defaults unless the user's institution, journal, or house style specif
 - Keep each pronoun's referent clear. Repeat the noun when `آن`، `این`، or `وی` could have multiple antecedents.
 - Calibrate conclusions with forms such as `نشان می‌دهد`، `حاکی از آن است`، `می‌تواند`، or `احتمالاً` according to evidence strength.
 
+### Paragraph openings and metadiscourse
+
+- Begin paragraphs with substantive scientific content: a claim, finding, contrast, mechanism, limitation, definition, methodological fact, or other proposition that advances the argument.
+- Do not use generic perspective-labeling or topic-announcing expressions merely to start a paragraph. In particular, avoid stock openings built as `از دیدگاه ...`، `از منظر ...`، or `از نظر ...` when the following noun phrase merely repeats the user's topic, title, heading, research question, or prompt wording.
+- Never treat a subject matter as though it were a person, theory, source, or viewpoint holder. A phrase such as `از دیدگاه [موضوع پژوهش]` is inappropriate unless that expression genuinely denotes an established analytical perspective.
+- Use perspective constructions only when attribution or comparison of actual perspectives is rhetorically necessary, for example when contrasting named theories, authors, disciplinary approaches, stakeholder groups, or conceptual frameworks.
+- Avoid empty paragraph openers such as `در این راستا`، `در این زمینه`، `در این خصوص`، `از این منظر`، and similar expressions when they contribute no specific logical relation. Replace them with the proposition itself or with a transition that states the actual relation.
+- Do not mechanically repeat the wording of the user's prompt in the first sentence of a paragraph. Reintroduce the topic only when needed for reference clarity, contrast, or section coherence.
+  
 ## Orthography and نیم‌فاصله
 
 - Use Persian `ی` and `ک`, not Arabic `ي` and `ك`, unless preserving an exact quotation or identifier.
