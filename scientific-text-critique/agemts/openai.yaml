@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Text Critique"
+  short_description: "Forensic scientific and statistical peer review"
+  default_prompt: "Use $scientific-text-critique to audit this scientific text for methodological, statistical, reporting, and writing problems."
