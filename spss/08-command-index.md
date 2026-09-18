@@ -1,0 +1,140 @@
+# 08 — Command Index (fast lookup)
+
+Alphabetical one-line purposes + home reference. Full subcommand specs live in the Syntax Reference; workflow details in the numbered file shown.
+
+- `2SLS` — two-stage least squares (instruments) → 05
+- `ADD FILES` — stack files row-wise → 03
+- `ADD VALUE LABELS` — append labels → 03
+- `ADP` — automated data preparation → 05
+- `AGGREGATE` — collapse to group rows → 03
+- `ANOVA` — simple ANOVA (see ONEWAY/UNIANOVA) → 04
+- `APPLY DICTIONARY` — copy dictionary from file → 02/03
+- `AUTORECODE` — string→integer codes → 03
+- `BOOTSTRAP` — resampling wrapper (precedes analysis) → 05
+- `CATPCA/CATREG` — optimal-scaling PCA/regression → 05
+- `CASESTOVARS` — long→wide → 03
+- `CLUSTER` — hierarchical clustering (dialog-paste) → 04
+- `CODEBOOK` — dictionary + quick audit → 02/04
+- `COMMENT` / `*` — comments → 01
+- `COMPUTE` — new variable from expression → 03
+- `CONJOINT` — conjoint analysis (syntax-only) → 05
+- `CORRELATIONS` — Pearson bivariate → 04
+- `CORRESPONDENCE` — correspondence analysis → 05
+- `COUNT` — count occurrences across vars → 03
+- `COXREG` — Cox proportional hazards → 05
+- `CROSSTABS` — contingency tables + chi-square → 04
+- `CSCOXREG/CSGLM/CSLOGISTIC/CSORDINAL/CSDESCRIPTIVES/CSTABULATE` — complex-samples family (`/PLAN FILE=`) → 05
+- `CSPLAN/CSSELECT` — sampling/analysis plans → 05
+- `CTABLES` — custom tables → 06
+- `CURVEFIT` — curve estimation → 04
+- `DATA LIST` — define text/inline data → 02
+- `DATASET ACTIVATE/CLOSE/COPY/DECLARE/NAME` — multi-dataset control → 02
+- `DATE` — define time-series cycles → 05
+- `DEFINE–!ENDDEFINE` — macros → 01
+- `DESCRIPTIVES` — scale summaries, ZSAVE → 04
+- `DETECTANOMALY` — anomaly index → 05
+- `DISCRIMINANT` — discriminant analysis → 04
+- `DISPLAY` — show dictionary/system state → 02
+- `DO IF–ELSE IF–ELSE–END IF` — conditional transforms → 03
+- `DO REPEAT–END REPEAT` — vectorised repetition → 03
+- `DOCUMENT/ADD DOCUMENT` — file history notes → 02
+- `EXAMINE` — EDA, boxplots, normality → 04
+- `EXECUTE` — flush pending transforms → 01
+- `EXPORT/IMPORT` — portable `.por` files → 02
+- `FACTOR` — factor/PCA → 04
+- `FILE HANDLE` — path alias → 02
+- `FILE TYPE` — nested/hierarchical input → 02
+- `FILTER` — filter by flag var → 03
+- `FLIP` — transpose cases/variables → 03
+- `FORMATS` — display formats → 03
+- `FREQUENCIES` — counts, bar/pie/hist → 04
+- `GENLIN` — generalized linear / GEE / GLMM → 05
+- `GENLOG` — general/logit loglinear → 05
+- `GET / GET FILE` — open `.sav/.zsav` → 02
+- `GET DATA` — open TXT/Excel/ODBC/DB → 02
+- `GET SAS / GET STATA / GET TRANSLATE` — foreign imports → 02
+- `GGRAPH` — GPL wrapper → 06
+- `GLM` — multivariate/repeated (see UNIANOVA) → 05
+- `GRAPH` — legacy charts → 06
+- `HILOGLINEAR` — hierarchical loglinear → 05
+- `IF` — single-line conditional → 03
+- `INCLUDE/INSERT` — run `.sps` files (prefer INSERT) → 01/02
+- `INPUT PROGRAM–END INPUT PROGRAM` — generated input → 02
+- `KNN` — k-nearest neighbor (dialog-paste) → 04
+- `KM` — Kaplan-Meier → 05
+- `LAG/LEAD` — prior/next case values → 03
+- `LIST` — list cases (also flushes queue) → 01
+- `LOGISTIC REGRESSION` — binary logistic → 05
+- `LOOP–END LOOP` — case iteration → 03
+- `MATCH FILES` — keyed column join → 03
+- `MEANS` — subgroup means → 04
+- `MISSING VALUES` — user-missing codes → 03
+- `MIXED` — linear mixed models → 05
+- `MLP/RBF` — neural networks (dialog-paste) → 05
+- `MVA` — missing-value analysis → 05
+- `MULT RESPONSE` — multiple-response sets → 04
+- `MULTIPLE IMPUTATION` — FCS/monotone imputation → 05
+- `NLR` — nonlinear regression → 05
+- `NOMREG` — multinomial logistic → 05
+- `NONPAR CORR` — Spearman/Kendall → 04
+- `NPAR TESTS / NPTESTS` — nonparametrics → 04
+- `OLAP CUBES` — pivoted summaries → 04
+- `OMS/OMSEND` — route output to data/files → 06
+- `ONEWAY` — one-way ANOVA + post-hocs → 04
+- `ORTHOPLAN` — conjoint orthogonal design → 05
+- `OUTPUT EXPORT/SAVE` — export/save `.spv`/Office/PDF → 06
+- `OVERALS` — nonlinear canonical correlation → 05
+- `PARTIAL CORR` — partial correlations → 04
+- `PLANCARDS` — conjoint cards → 05
+- `PLS` — partial least squares (dialog-paste) → 04
+- `PLUM` — ordinal regression → 04
+- `PPLOT` — P-P/Q-Q plots → 04
+- `PREFSCAL/PROXSCAL` — MDS/unfolding → 05
+- `PRINT/WRITE` — fixed-text output → 02
+- `PROBIT` — dose-response → 05
+- `PROXIMITIES` — distance matrices → 04
+- `QUANTILE` — quantile regression → 05
+- `QUICK CLUSTER` — k-means → 04
+- `RANK` — ranks/ntile → 03
+- `RATIO STATISTICS` — coefficient of dispersion etc. → 04
+- `RECODE` — recode values (prefer INTO) → 03
+- `REGRESSION` — linear (+ stepwise, SAVE, plots) → 04
+- `RELIABILITY` — Cronbach alpha etc. → 04
+- `RENAME VARIABLES` — rename → 03
+- `REPEATING DATA/REREAD` — complex input → 02
+- `REPORT` — paginated listings → 04
+- `ROC` — ROC curves → 04
+- `SAMPLE` — random subsample → 03
+- `SAVE / XSAVE` — write `.sav/.zsav` → 02
+- `SAVE TRANSLATE` — write CSV/Excel/Stata/etc. → 02
+- `SEASON` — seasonal decomposition → 05
+- `SELECT IF` — filter cases (permanent on SAVE) → 03
+- `SET/SHOW` — session options/state → 01
+- `SIMPLAN/SIMRUN` — simulation → 04
+- `SORT CASES` — sort (required before MATCH) → 03
+- `SPECTRA` — spectral analysis → 05
+- `SPLIT FILE` — grouped processing (OFF to end) → 03
+- `STAR JOIN` — large/fuzzy joins → 03
+- `SUMMARIZE` — case summaries → 04
+- `SURVIVAL` — life tables → 05
+- `SURVREG` — parametric AFT / shared frailty → 05
+- `SYSFILE INFO` — inspect `.sav` without opening → 02
+- `TEMPORARY.` — one-procedure override → 01/03
+- `T-TEST` — one/independent/paired t → 04
+- `TITLE/SUBTITLE` — output titles → 01
+- `TREE` — decision trees (dialog-paste) → 05
+- `TSAPPLY/TSMODEL` — forecasting apply/model → 05
+- `TWOSTEP CLUSTER` — two-step clustering (dialog-paste) → 04
+- `UNIANOVA` — univariate GLM → 04
+- `UPDATE` — keyed correction join → 03
+- `USE ALL` — clear FILTER → 03
+- `VALIDATE DATA` — rule-based validation → 05
+- `VALUE LABELS` — category labels → 03
+- `VARIABLE ATTRIBUTE` — custom metadata → 03
+- `VARIABLE LABELS` — descriptive labels → 03
+- `VARIABLE LEVEL/ROLE` — measure/role → 03
+- `VARSTOCASES` — wide→long → 03
+- `VECTOR` — short-name a var set → 03
+- `WEIGHT` — case weights (not CS designs) → 03
+- `WLS/2SLS` — weighted / instrumental regression → 05
+- `XSAVE` — pending SAVE variant → 02
