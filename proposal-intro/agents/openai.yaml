@@ -1,0 +1,4 @@
+interface:
+  display_name: "proposal-intro"
+  short_description: "نگارش بیان مسئله علمی فارسی از عنوان و طراحی مطالعه"
+  default_prompt: "با اسکیل $proposal-intro، بر اساس عنوان و طراحی مطالعه‌ای که می‌دهم، یک بیان مسئله کامل، مستند و روان به فارسی آکادمیک بنویس."
