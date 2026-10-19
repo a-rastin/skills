@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proposal Literature"
+  short_description: "جستجوی علمی و نگارش مرور متون فارسی پروپوزال"
+  default_prompt: "با استفاده از $proposal-literature و بر اساس عنوان، کلیدواژه‌ها و نوع طراحی مطالعه، جستجوی علمی انجام بده و مرور متون فارسی مستند بنویس."
