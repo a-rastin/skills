@@ -1,1 +1,4 @@
-
+interface:
+  display_name: "متدولوژی پروپوزال"
+  short_description: "تدوین روش‌شناسی دقیق و روان برای پروپوزال علمی"
+  default_prompt: "Use $proposal-method to write a complete academic Persian methodology from my study title, keywords, and study design."
