@@ -1,0 +1,20 @@
+{
+  "skill": "intern",
+  "test_cases": [
+    {
+      "name": "chest_pain_case",
+      "input": "Patient is a 58-year-old man with sudden-onset chest pain radiating to left arm, diaphoresis, history of hypertension and smoking. EKG shows ST elevation in II, III, aVF. Troponin elevated. Provide interpretation, DDX, and next steps.",
+      "assertions": ["Structures output with Data Summary, Interpretation, Clinical Approach, DDX, Next Steps", "Prioritizes ACS / STEMI highly", "Includes bias check and disclaimer", "Suggests urgent cath lab activation or equivalent"]
+    },
+    {
+      "name": "persian_history_labs",
+      "input": "بیمار خانم 34 ساله با تب، سرفه خشک و تنگی نفس از 5 روز پیش. سابقه آسم ندارد. آزمایشات: WBC 14.2, CRP 85, CXR پنومونی لوب تحتانی راست. تحلیل بالینی و تشخیص‌های افتراقی.",
+      "assertions": ["Handles Persian input correctly", "Interprets labs and imaging", "Provides bilingual-aware summary", "Generates DDX including pneumonia, PE, etc.", "Includes next steps and safety disclaimer"]
+    },
+    {
+      "name": "incomplete_data_ddx",
+      "input": "Analyze this incomplete case: 72F with confusion, Na 128, glucose 450, no further labs or exam provided. What is the approach and DDX?",
+      "assertions": ["Notes data gaps explicitly", "Considers hyperosmolar hyperglycemic state, hyponatremia causes, infection", "Does not over-diagnose", "Requests additional critical data", "Maintains educational disclaimer"]
+    }
+  ]
+}

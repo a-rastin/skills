@@ -1,0 +1,10 @@
+{
+  "skill": "intern",
+  "test_cases": [
+    {"input": "Review this patient case and give me a DDX and clinical approach", "should_trigger": true},
+    {"input": "Interpret the EKG, labs, and history for this admission", "should_trigger": true},
+    {"input": "Analyze the imaging and para-clinical data as an intern would", "should_trigger": true},
+    {"input": "What is the definition of pneumonia?", "should_trigger": false},
+    {"input": "Write a research paper on cognitive biases in medicine", "should_trigger": false}
+  ]
+}
