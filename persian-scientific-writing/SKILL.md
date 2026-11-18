@@ -1,6 +1,6 @@
 ---
 name: persian-scientific-writing
-description: Write, rewrite, translate, structure, and edit rigorous academic Persian (فارسی آکادمیک) for theses and dissertations, journal and conference papers, research proposals, literature reviews, abstracts, and related scholarly sections. Use when the requested deliverable is in Persian or when English academic material must be adapted into natural Persian academic prose; also use for Persian orthography, نیم‌فاصله, terminology, RTL-aware organization, citation integration, and consistency review. Do not use for casual Persian or merely translating non-academic text.
+description: Write, rewrite, translate, structure, and edit formal academic Persian (فارسی علمی و دانشگاهی) for theses, dissertations, journal and conference papers, proposals, literature reviews, and abstracts. Use for fluent Persian scientific prose, preserving authorial voice, removing formulaic or AI-sounding phrasing, adapting English scholarship into Persian, or reviewing terminology, orthography, نیم‌فاصله, RTL text, and citations. Use for روان‌سازی or طبیعی‌نویسی when the text is scholarly. For casual Persian and non-academic translation, use a general writing workflow.
 ---
 
 # Persian Scientific Writing
@@ -13,6 +13,7 @@ Produce precise, coherent, evidence-faithful Persian academic prose. Preserve th
 
 - For a thesis, dissertation, article, proposal, abstract, or literature review, read [document-structures.md](references/document-structures.md).
 - For drafting, rewriting, translating, or language editing in Persian, read [persian-style.md](references/persian-style.md).
+- For drafting, translating, or polishing prose, read [natural-academic-prose.md](references/natural-academic-prose.md). Use its Persian examples and run the naturalness pass before the final fidelity check.
 - For every writing request, read [originality-and-citations.md](references/originality-and-citations.md) and apply its source-mining, authorial-voice, no-English-prose, punctuation, and no-diacritics workflow.
 - For a final review or submission-ready revision, also read [quality-control.md](references/quality-control.md).
 - If a university, journal, funder, supervisor, or user supplies a template or style guide, treat it as authoritative and adapt these defaults to it.
@@ -26,6 +27,7 @@ Determine from the request and supplied material:
 3. Research question, claim, or communicative purpose.
 4. Required length, structure, citation style, terminology, and formatting.
 5. Whether the task is drafting, rewriting, translating, shortening, expanding, or reviewing.
+6. Any writing sample supplied for tone. Use it to infer rhythm, register, and transitions. Apply the document's explicit style requirements and keep the author's material attributed to its original source.
 
 Ask only for missing information that would materially change the result. When safe, state a compact assumption and proceed. For high-stakes or submission-ready work, flag missing institutional or journal requirements.
 
@@ -48,7 +50,7 @@ Ask only for missing information that would materially change the result. When s
 6. Reason actively from the supplied results: connect findings to defensible mechanisms, infer trade-offs, and propose calibrated interpretations as the authors' own analysis. Mark uncertainty and do not fabricate data.
 7. Explain how the evidence supports the claim; do not leave citations uninterpreted.
 8. Connect paragraphs with logical transitions rather than repetitive stock phrases.
-9. Open paragraphs directly with content-bearing scientific propositions rather than generic perspective or topic-announcing frames. Do not begin a paragraph with constructions such as `از دیدگاه ...`، `از منظر ...`، or `از نظر ...` merely to restate the user's topic, title, heading, or research question. Use such framing only when an actual attributed perspective is analytically necessary.
+9. Open paragraphs with a proposition that advances the argument. Use perspective labels when the relevant author, theory, or framework matters to that proposition.
 10. End a section with synthesis or a transition only when doing so serves the section's rhetorical function. Do not automatically add a concluding or summary paragraph to every requested passage, subsection, or section. Add a distinct conclusion or closing summary only when the user explicitly requests it, the required document structure includes it, or the supplied institutional, journal, or supervisor template requires it.
 
 Use bullet points for planning, requirements, or genuinely list-like content. Convert argumentative and explanatory material into connected prose in the final academic text unless the required template calls for lists.
@@ -83,8 +85,9 @@ When converting English scholarly material into Persian:
 1. **Substance:** verify purpose, completeness, evidence, and fidelity to supplied material.
 2. **Structure:** verify section logic, paragraph order, and continuity of argument.
 3. **Language:** improve clarity, concision, register, syntax, terminology, and consistent authorial voice.
-4. **Mechanics:** normalize spelling, نیم‌فاصله, punctuation, numerals, citations, headings, and RTL/LTR boundaries; verify that forbidden English prose, ASCII punctuation, and Arabic diacritics are absent.
-5. **Final audit:** apply [quality-control.md](references/quality-control.md) and report unresolved placeholders or uncertainties.
+4. **Naturalness:** read complete paragraphs together. Remove filler, repeated scaffolding, and unsupported emphasis. Revise syntax around the scientific point and retain comparisons, qualifications, and repeated technical terms that carry meaning.
+5. **Mechanics:** normalize spelling, نیم‌فاصله, punctuation, numerals, citations, headings, and RTL/LTR boundaries; verify that forbidden English prose, ASCII punctuation, and Arabic diacritics are absent.
+6. **Final audit:** compare the revision with the source for claim strength, values, attribution, and scope. Apply [quality-control.md](references/quality-control.md) and report unresolved placeholders or uncertainties as needed for the requested output.
 
 ## Deliver the result
 
