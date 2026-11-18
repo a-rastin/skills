@@ -16,6 +16,7 @@ Academic Persian is not casual Persian with harder words, and it is not English 
 | **Scholarly integrity** | No invented sources, stats, methods, or findings |
 | **Source audit** | Candidate claims and citation decisions mined from supplied files before prose |
 | **Authorial originality** | Present-study voice and expert interpretation grounded only in supplied evidence |
+| **Natural scientific prose** | Persian examples for removing formulaic openings, filler, repetitive rhythm, and unsupported emphasis |
 | **Document craft** | Thesis, paper, proposal, and review structures that stay aligned |
 | **Orthography** | No English prose, ASCII round parentheses or comma, or Arabic diacritics outside narrow protected cases |
 | **Submission polish** | Multi-pass revision plus a final quality-control checklist |
@@ -33,7 +34,7 @@ Use it when the deliverable is in Persian, or when English academic material mus
 - **Present-study voice** — `ما` for the authors' own supplied work and interpretation; third person for prior work
 - **Strict Persian surface form** — Persian equivalents instead of floating English words, punctuation-safe prose, and no harakat
 - **Translation as adaptation** — Rebuilds propositions in Persian while preserving stance, hedging, units, and citations
-- **Revision passes** — Substance → structure → language → mechanics → final audit
+- **Revision passes** — Substance → structure → language → naturalness → mechanics → final audit
 - **Venue-aware defaults** — Institutional templates and journal guides override skill defaults when supplied
 
 ---
@@ -47,6 +48,7 @@ persian-scientific-writing/
 │   └── openai.yml                    # Codex / OpenAI agent display metadata
 ├── references/
 │   ├── document-structures.md        # Thesis, paper, proposal, literature-review outlines
+│   ├── natural-academic-prose.md     # Persian before-and-after examples and fidelity checks
 │   ├── originality-and-citations.md  # Source audit, authorial voice, English/diacritic constraints
 │   ├── persian-style.md              # Register, orthography, RTL, terminology, citations
 │   └── quality-control.md            # Submission-ready checklist
@@ -57,6 +59,7 @@ persian-scientific-writing/
 | --- | --- |
 | [`SKILL.md`](SKILL.md) | Agent instructions: when to load, how to brief, draft, revise, and deliver |
 | [`references/document-structures.md`](references/document-structures.md) | Default section maps and problem→method→result alignment audit |
+| [`references/natural-academic-prose.md`](references/natural-academic-prose.md) | Editing patterns adapted from Humanizer with scientific examples in Persian |
 | [`references/originality-and-citations.md`](references/originality-and-citations.md) | Six-step source mining, citation choice, authorial voice, and language-constraint workflow |
 | [`references/persian-style.md`](references/persian-style.md) | Formal Persian register, نیم‌فاصله, punctuation, numerals, terminology |
 | [`references/quality-control.md`](references/quality-control.md) | Evidence, argument, language, citation, and handoff checks |
@@ -105,6 +108,7 @@ The frontmatter description is written for automatic skill selection. Typical tr
 - Preparing a **Persian research proposal** or grant abstract
 - Producing a **literature review** or **structured abstract** in Persian
 - **Translating / adapting** English academic text into natural scientific Persian
+- **Polishing formulaic prose** in a Persian discussion, abstract, or other scholarly section
 - Fixing **نیم‌فاصله**, terminology drift, RTL citation issues, or consistency review
 
 ---
@@ -129,8 +133,8 @@ p-values, CIs, sample sizes, and hedging. Prefer idiomatic Persian over literal 
 ### Style and QC pass
 
 ```text
-Revise this Persian discussion for formal academic register, consistent terminology,
-and نیم‌فاصله. Then run the quality-control checklist and list only issues that need my decision.
+Revise this Persian discussion for natural academic flow and consistent terminology.
+Preserve causal limits, estimates, citations, and نیم‌فاصله. Return the clean copy.
 ```
 
 ### Structure alignment
@@ -151,8 +155,8 @@ Suggest structural fixes without inventing new evidence or results.
 4. Decide citations   → select support and assign exact citation spots
 5. Protect integrity  → no fabricated evidence
 6. Outline and write  → present-study voice + claim–evidence–reasoning
-7. Verify constraints → no floating English, forbidden ASCII, or harakat
-8. Revise and deliver → clean Persian prose + optional editorial notes
+7. Edit for flow     → remove formulaic phrasing and compare claims with the source
+8. Verify and deliver → Persian-language checks and final clean copy
 ```
 
 ---
@@ -203,7 +207,7 @@ Full detail: [`references/persian-style.md`](references/persian-style.md)
 
 | Component | Support |
 | --- | --- |
-| OpenAI Codex skills | Yes (`agents/openai.yaml` included) |
+| OpenAI Codex skills | Yes (`SKILL.md` and `agents/openai.yml` included) |
 | Claude Code / Agent Skills | Yes (`SKILL.md` frontmatter + progressive disclosure) |
 | Other Markdown skill loaders | Yes, if they resolve relative `references/` links |
 
@@ -235,7 +239,7 @@ Please keep changes consistent with the integrity rules above and avoid bloating
 
 ## License
 
-No license file is included yet. Add a `LICENSE` (for example MIT or Apache-2.0) before public release if you want others to reuse or fork the skill under clear terms.
+See the repository's [MIT License](../LICENSE). The natural-prose guidance draws on [blader/humanizer](https://github.com/blader/humanizer), which is also MIT-licensed.
 
 ---
 
