@@ -34,6 +34,8 @@ Apply the relevant checks before returning submission-ready Persian academic tex
 - Technical equivalents and abbreviations are defined and used consistently.
 - Mixed RTL/LTR strings render correctly, especially citations, parentheses, numbers, formulas, and English terms.
 - Paragraph openings are varied according to rhetorical function and are not generated from a repeated stock template.
+- Each transition, emphasis, and closing sentence serves the section's scientific purpose. Apply [natural-academic-prose.md](natural-academic-prose.md) to review repeated patterns across paragraphs.
+- After polishing, verify that each substantive comparison, limitation, and degree of uncertainty still attaches to the original claim, and that its citation still supports it.
 
 ## Citations and formatting
 
